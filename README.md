@@ -6,6 +6,19 @@ Have you ever wondered if it's possible to arrange 8 Queens on a standard chess 
 
 Probably not -- But if so, then look no further!
 
+For example:
+
+    0 0 0 0 0 1 0 0 
+    0 0 0 1 0 0 0 0 
+    1 0 0 0 0 0 0 0 
+    0 0 0 0 1 0 0 0 
+    0 0 0 0 0 0 0 1 
+    0 1 0 0 0 0 0 0 
+    0 0 0 0 0 0 1 0 
+    0 0 1 0 0 0 0 0
+
+(0's are empty cells, 1's are positions of queen pieces)
+
 This code is written for square board sizes up to 8x8 cells. The positions are bit-packed into an unsigned long (i.e. 64 bits) structure.
 
 Implementing larger sizes of boards would require a more generalized data structure.
