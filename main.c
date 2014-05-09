@@ -108,7 +108,7 @@ int main() {
 	solutions->next = NULL;
 	solutions->val = 0;
 
-	for (i=0; i<SIZE*SIZE; i++) {
+	for (i=0; i<SIZE; i++) {
 		ChessBoard board = {0, 0};
 		placeQueen(&board, i/SIZE, i%SIZE);
 		recurse(board, i+1, 1, solutions);

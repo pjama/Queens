@@ -2,7 +2,7 @@
 
 ##The Riddle
 
-Have you ever wondered if it's possible to arrange 8 Queens on a standard chess board with all the positions being mutually
+Have you ever wondered if it's possible to arrange 8 Queens on a standard chess board with all the positions being mutually non-threatening?
 
 Probably not -- But if so, then look no further!
 
